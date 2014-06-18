@@ -4,10 +4,13 @@
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
+setopt NO_NOMATCH
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+
+source ~/.zprofile
 
 # Customize to your needs...
