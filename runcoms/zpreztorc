@@ -9,6 +9,9 @@
 # General
 #
 
+# Fix git update 
+zstyle ':prezto:module:git:info' verbose yes
+
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
 
@@ -31,14 +34,19 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
-  'git' \
-  'homebrew' \
-  'tmux' \
-  'syntax-highlighting' \
-  'osx' \
   'completion' \
-  'prompt'
-
+  'prompt' \
+  'archive' \
+  'git' \
+  'osx' \
+  'rails' \
+  'ruby' \
+  'tmux' \
+  'fasd' \
+  'utility' \
+  'syntax-highlighting' \
+  'homebrew' 
+  
 #
 # Editor
 #
@@ -55,7 +63,7 @@ zstyle ':prezto:module:editor' dot-expansion 'yes'
 #
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
-zstyle ':prezto:module:git:status:ignore' submodules 'all'
+# zstyle ':prezto:module:git:status:ignore' submodules 'all'
 
 #
 # GNU Utility
