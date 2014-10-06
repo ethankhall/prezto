@@ -9,9 +9,6 @@
 # General
 #
 
-# Fix git update 
-zstyle ':prezto:module:git:info' verbose yes
-
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
 
