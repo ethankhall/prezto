@@ -163,9 +163,8 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 # Auto start a session when Zsh is launched in a local terminal.
 zstyle ':prezto:module:tmux:auto-start' local 'yes'
 
-# Auto start a session when Zsh is launched in a SSH connection.
 # Integrate with iTerm2.
-zstyle ':prezto:module:tmux:iterm' integrate 'yes'
+#zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
 # Enable titiling
 zstyle ':prezto:module:terminal' auto-title 'yes'
