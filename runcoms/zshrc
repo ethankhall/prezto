@@ -18,6 +18,8 @@ source ~/.zprofile
 # Fix git update
 zstyle ':prezto:module:git:info' verbose yes
 
+unsetopt SHARE_HISTORY
+
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 
 if [ -d /Volumes/Workspace ]; then
@@ -26,3 +28,10 @@ fi
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export IDEA_JDK="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"
+
+export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
+export FUSION_APP_PATH=$HOME/Applications/VMware\ Fusion.app
+
+if [ -e ~/.conf/zsh ]; then
+  source ~/.conf/zsh
+fi
